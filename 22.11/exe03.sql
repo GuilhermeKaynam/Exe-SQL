@@ -22,7 +22,7 @@ VALUES
     
 SELECT * FROM tb_escola;
 
-UPDATE tb_escola SET nota = 6.9 WHERE nome_aluno = "Lorenna";
+UPDATE tb_escola SET nota = 5.9 WHERE nome_aluno = "Lorenna";
 
 SELECT * FROM tb_escola WHERE nota > 7.0;
 SELECT * FROM tb_escola WHERE nota < 7.0;
